@@ -1,6 +1,19 @@
 {
   "expo": {
     "name": "ajeoba",
-    "slug": "ajeoba"
+    "slug": "ajeoba",
+    "extra": {
+      "eas": {
+        "projectId": "56a7eba9-19b2-4ddb-b7ad-d8e4abe2fb58"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/56a7eba9-19b2-4ddb-b7ad-d8e4abe2fb58"
+    },
+    "android": {},
+    "ios": {}
   }
 }

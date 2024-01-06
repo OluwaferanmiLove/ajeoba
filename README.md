@@ -1,36 +1,40 @@
-# TypeScript Example
+# ZST Test
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+## Run Published App On Expo GO
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+Doenload Expo Go on app store or Play Store to run the app
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+    https://apps.apple.com/us/app/expo-go/id982107779
+    https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US
 
-## 🚀 How to use
 
-#### Creating a new project
+Click the link below to open app
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+iOS
 
-### Adding TypeScript to existing projects
+    exp://u.expo.dev/update/a68b9532-5049-4468-9046-99b394b3b3fe
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+Android
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
+    exp://u.expo.dev/update/d221322a-1e23-42e4-9bbd-cc8342cad085
 
-## 📝 Notes
+## Clone git repository and install packages
 
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+    git clone https://github.com/OluwaferanmiLove/zst-test.git
+    cd zst-test
+
+Then install npm packages with yarn
+
+    yarn install
+
+Then install expo packages with
+
+    npx expo install
+
+## Run application
+
+Start metro server
+
+    npx expo start
+
+Open Camera and scan QR code to run
