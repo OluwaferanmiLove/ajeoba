@@ -1,4 +1,6 @@
-# ZST Test
+# Ajeoba Test
+
+<img src="./src/assets/screenShot/IMG_4353.PNG" width="30%" height="30%">  <img src="./src/assets/screenShot/IMG_4354.PNG" width="30%" height="30%">
 
 ## Run Published App On Expo GO
 
@@ -12,16 +14,16 @@ Click the link below to open app
 
 iOS
 
-    exp://u.expo.dev/update/a68b9532-5049-4468-9046-99b394b3b3fe
+    exp://u.expo.dev/update/2bd51e0c-99ea-47f6-80cd-825d742fa471
 
 Android
 
-    exp://u.expo.dev/update/d221322a-1e23-42e4-9bbd-cc8342cad085
+    exp://u.expo.dev/update/9b665b56-d37e-4a38-ac2e-baf1ac57df9f
 
 ## Clone git repository and install packages
 
-    git clone https://github.com/OluwaferanmiLove/zst-test.git
-    cd zst-test
+    git clone https://github.com/OluwaferanmiLove/ajeoba.git
+    cd ajeoba
 
 Then install npm packages with yarn
 
